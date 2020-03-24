@@ -1,0 +1,40 @@
+{
+  "backgroundType": "gradient",
+  "plainBackgroundMode": "daylight",
+  "devIntro": "goutham jm ",
+  "devDesc": " Full Stack JS  Developer - React | Redux | Node JS | Express | MongoDB | Adobe XD",
+  "gradientColors": "#FF5733, #FF5733, #FF5733, #FF5733",
+  "icons": [
+    {
+      "id": 0,
+      "image": "fab fa-github",
+      "url": "https://github.com/Gauthamjm007",
+      "style": "socialicons"
+    },
+    {
+      "id": 1,
+      "image": "fab fa-linkedin",
+      "url": "https://www.linkedin.com/in/gautham-jm/",
+      "style": "socialicons"
+    },
+    {
+      "id": 2,
+      "image": "fas fa-code",
+      "url": "https://www.codewars.com/users/Gauthamjm007?refreshed=true",
+      "style": "socialicons"
+    },
+    {
+      "id": 3,
+      "image": "fas fa-file-pdf",
+      "url": "http://www.keepandshare.com/doc12/view.php?id=250068&da=y",
+      "style": "socialicons"
+    }
+  ],
+  "instaLink": "https://www.instagram.com/",
+  "instaUsername": "gauthamjm",
+  "instaQuerry": "/?__a=1",
+  "aboutDev": "Hi I am an Software engineer with work experience of 1.5 years in Mobile and Web , currently open for  employment opportunities pertaining to Full Stack JS , with any frameworks , I am an enthusiastic developer willing to explore new technologies and learn and try to be a better programmer each single day ",
+  "gitHubLink": "https://api.github.com/users/",
+  "gitHubUsername": "GauthamJM007",
+  "gitHubQuerry": "/repos?direction=desc&sort=pushed"
+}
