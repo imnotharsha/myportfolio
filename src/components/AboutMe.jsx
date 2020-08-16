@@ -3,7 +3,7 @@ import Configs from "../configurations.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-
+import './AboutMe.css'
 class AboutMe extends Component {
   constructor(props) {
     super(props);
@@ -27,11 +27,11 @@ class AboutMe extends Component {
           instaProfilePic: response.data.graphql.user.profile_pic_url_hd
         });
       })
-      .catch(function(error) {
+      .catch(function (error) {
         // handle error
         console.log(error);
       })
-      .finally(function() {
+      .finally(function () {
         // always executed
       });
   };
@@ -43,9 +43,10 @@ class AboutMe extends Component {
           <div className="row">
             <div className=" col-5 d-none d-lg-block align-self-center">
               <img
-                className="border-secondary rounded-circle"
-                src="https://i.ibb.co/R4htZB1/circle-cropped.png"
+                className="border-secondary rounded-circle myimage"
+
                 alt="profilepicture"
+                src="https://i.ibb.co/WfJSTbr/circle-cropped-1.png"
               ></img>
             </div>
             <div className=" col-lg-7">

@@ -1,40 +1,40 @@
 {
   "backgroundType": "gradient",
   "plainBackgroundMode": "daylight",
-  "devIntro": "goutham jm ",
-  "devDesc": " Full Stack JS  Developer - React | Redux | Node JS | Express | MongoDB | Adobe XD",
+  "devIntro": "Harsha Dodderi ",
+  "devDesc": " Front End React Developer - React | Redux | JavaScript | HTML | CSS ",
   "gradientColors": "#FF5733, #FF5733, #FF5733, #FF5733",
   "icons": [
     {
       "id": 0,
       "image": "fab fa-github",
-      "url": "https://github.com/Gauthamjm007",
+      "url": "https://github.com/imnotharsha",
       "style": "socialicons"
     },
     {
       "id": 1,
       "image": "fab fa-linkedin",
-      "url": "https://www.linkedin.com/in/gautham-jm/",
+      "url": "https://www.linkedin.com/in/harsha-dodderi-zenith/",
       "style": "socialicons"
     },
     {
       "id": 2,
       "image": "fas fa-code",
-      "url": "https://www.codewars.com/users/Gauthamjm007?refreshed=true",
+      "url": "https://www.codewars.com/users/Harshadodderi?refreshed=true",
       "style": "socialicons"
     },
     {
       "id": 3,
       "image": "fas fa-file-pdf",
-      "url": "https://drive.google.com/file/d/1dLw7n9F_3HAr2jIdmFiJkgVkayTKUZNV/view?usp=sharing",
+      "url": "",
       "style": "socialicons"
     }
   ],
   "instaLink": "https://www.instagram.com/",
-  "instaUsername": "gauthamjm",
+  "instaUsername": "harshadodderi",
   "instaQuerry": "/?__a=1",
-  "aboutDev": "Hi I am an Software engineer with work experience of 1.5 years in Mobile and Web , currently open for  employment opportunities pertaining to Full Stack JS , with any frameworks , I am an enthusiastic developer willing to explore new technologies and learn and try to be a better programmer each single day ",
+  "aboutDev": "Hi I am an Software engineer with work experience of 2 years in React Web Development , currently searching for  employment opportunities pertaining to React  Developer Position , willing to work  with any frameworks if requirement pushes me to do so, I am an enthusiastic developer willing to explore new technologies and learn and try to be a better programmer each single day ",
   "gitHubLink": "https://api.github.com/users/",
-  "gitHubUsername": "GauthamJM007",
+  "gitHubUsername": "imnotharsha",
   "gitHubQuerry": "/repos?direction=desc&sort=pushed"
 }

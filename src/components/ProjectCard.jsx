@@ -64,7 +64,7 @@ class ProjectCard extends Component {
             >
               <i className="fab fa-github" /> Clone Project
             </a>
-            {"    "}
+
             <a
               href={this.state.repo_url}
               target=" _blank"
@@ -87,13 +87,13 @@ class ProjectCard extends Component {
 
             <hr />
             <Language value={this.state.value.languages_url}></Language>
-            <p className="card-text">
-              <h href="" className=" text-dark card-link mr-4">
+            <p className="card-text ">
+              <p href="" className=" text-dark card-link mr-4">
                 <i className="fab fa-github" /> Stars{" "}
                 <span className="badge badge-dark">
                   {this.state.stargazers_count}
                 </span>
-              </h>
+              </p>
               <small className="text-muted">
                 Updated {this.state.updated_at}
               </small>
@@ -121,11 +121,11 @@ class Language extends Component {
         // console.log(response.data);
         this.setState({ data: response.data });
       })
-      .catch(function(error) {
+      .catch(function (error) {
         // handle error
         console.log(error);
       })
-      .finally(function() {
+      .finally(function () {
         // always executed
       });
   };

@@ -23,18 +23,18 @@ class Project extends Component {
       .get(Configs.gitHubLink + Configs.gitHubUsername + Configs.gitHubQuerry)
       .then((response) => {
         // handle success
-        // console.log(response.data.slice(0, 4));
+        console.log(response.data.slice(0, 4));
         this.setState({
           projectsArray: response.data
             .filter((ele) => ele.stargazers_count !== 0)
             .slice(0, 6)
         });
       })
-      .catch(function(error) {
+      .catch(function (error) {
         // handle error
         console.log(error);
       })
-      .finally(function() {
+      .finally(function () {
         // always executed
       });
   };

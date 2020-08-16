@@ -18,14 +18,14 @@ class Footer extends Component {
         <a
           className=" badge badge-dark"
           target="noopener"
-          href={"https://github.com/Gauthamjm007"}
+          href={"https://github.com/imnotharsha"}
         >
-          Goutham JM
-        </a>{" "}
+          Harsha Dodderi
+        </a>
         using <i className="fab fa-react"></i>
         <p>
           <small className="text-muted">
-            {" "}
+
             Project code is open source. Feel free to fork and make your own
             version.
           </small>
