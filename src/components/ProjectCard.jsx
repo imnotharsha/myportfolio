@@ -58,19 +58,20 @@ class ProjectCard extends Component {
           <div className="card-body">
             <h5 className="card-title">{this.state.value.name} </h5>
             <p className="card-text">{this.state.value.description} </p>
+
+
+            <a
+              href={this.state.repo_url}
+              target=" _blank"
+              className=" btn btn-outline-secondary mr-3"
+            >
+              <i className="fab fa-github" /> Repo
+            </a>
             <a
               href={this.state.download_url}
               className=" btn btn-outline-secondary mr-3"
             >
               <i className="fab fa-github" /> Clone Project
-            </a>
-
-            <a
-              href={this.state.repo_url}
-              target=" _blank"
-              className=" btn btn-outline-secondary"
-            >
-              <i className="fab fa-github" /> Repo
             </a>
             <br />
             <br />
